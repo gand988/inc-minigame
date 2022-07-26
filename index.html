@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Click!</title>
+</head>
+<body>
+  <h1>Incremental game</h1>
+  <section class="game">
+    <p name="score">0</p>
+    <button name="clickButton">click</button>
+    <button name="addButton">add damage</button>
+    <button name="addAuto">add auto damage</button>
+  </section>
+  <section class="skill">
+    <p>current skill: </p>
+    <ul>
+      <li name="infoDamage">current dmg : 1</li>
+      <li name="infoAuto">current auto dmg : 0.0</li>
+    </ul>
+  </section>
+  <section class="information">
+    <p>information</p>
+    <ul>
+      <li>need 100 = add 0.5 damage on click</li>
+      <li>need 1000 = add 0.1 damage on autoclick</li>
+    </ul>
+  </section>
+  <script src="script/script.js"></script>
+</body>
+</html>
